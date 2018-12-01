@@ -1,5 +1,5 @@
-# paper-turtle
+# paper-nibble
 
-**TurtleCoin Paper Wallet Generator**
+**NibbleClassic Paper Wallet Generator**
 
-https://turtlecoin.lol/wallet
+https://nibble-nibble.com/wallet

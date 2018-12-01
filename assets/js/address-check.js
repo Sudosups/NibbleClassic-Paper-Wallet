@@ -14,7 +14,7 @@ function checkAddress() {
   var address_info = cnUtil.validate_address(address);
   
   if(!address_info.valid) {
-    notification.innerHTML = '<div class="column is-12 notification is-danger has-text-centered">Invalid TRTL address!</div>';
+    notification.innerHTML = '<div class="column is-12 notification is-danger has-text-centered">Invalid NBX address!</div>';
     return;
   }
 
