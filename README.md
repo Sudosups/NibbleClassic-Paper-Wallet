@@ -2,4 +2,4 @@
 
 **NibbleClassic Paper Wallet Generator**
 
-https://nibble-nibble.com/wallet
+https://nibble-nibble.com
