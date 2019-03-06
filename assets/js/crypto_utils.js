@@ -85,6 +85,10 @@
 
 /* Wallet generator modifications: Copyright 2015 moneromooo */
 
+// Copyright (c) 2018, The TurtleCoin Developers
+//
+// Please see the included LICENSE file for more information.
+
 
 var JSBigInt = (function () {
     "use strict";
@@ -2101,7 +2105,7 @@ var cnUtil = (function(initConfig) {
         }
 
         // Quick check to see that it's valid
-        if((address_b58.length != 99 && address_b58.length != 187) || address_b58.substring(0,4) != "NBX") {
+        if((address_b58.length != 98 && address_b58.length != 186) || address_b58.substring(0,3) != "Nib") {
             return output;
         }
 
@@ -2121,7 +2125,7 @@ var cnUtil = (function(initConfig) {
         }
 
         // check if we have an integrated address
-        var is_integrated = address_b58.length == 187;
+        var is_integrated = address_b58.length == 186;
 
         // get the hex address without prefix
         var address_no_prefix = address_hex.slice(prefix_hex.length);
