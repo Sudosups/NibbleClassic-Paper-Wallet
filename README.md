@@ -1,4 +1,4 @@
-# paper-turtle
+# paper-nibble
 
 **NibbleClassic Paper Wallet Generator**
 
